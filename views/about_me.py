@@ -88,3 +88,36 @@ f"""<p style='text-align: center; font-size: 20px;'>Right now i'm looking for op
     unsafe_allow_html=True,
 )
 
+# Include Material Icons library
+st.markdown(
+    """
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    """,
+    unsafe_allow_html=True,
+)
+
+# Email button with Material Icons
+st.markdown(
+    """
+    <a style="text-decoration: none;" href="mailto:xtakeshido@gmail.com" target="_blank">
+        <button style="
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: none;
+            outline: none;
+            color: rgb(255, 255, 255);
+            background: #333;
+            position: relative;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        " role="button">
+            <span class="material-icons" style="font-size: 24px;">email</span>
+            Send me an email
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
