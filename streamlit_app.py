@@ -16,11 +16,6 @@ about_page = st.Page(
     icon=":material/photo_camera_front:",
     default=True,
 )
-contact_page = st.Page(
-    page="views/contact_page.py",
-    title="Contact",
-    icon=":material/perm_contact_calendar:",
-)
 projects_page = st.Page(
     page="views/projects.py",
     title="Projects",
@@ -28,7 +23,7 @@ projects_page = st.Page(
 )
 
 # Navigation Setup
-pg = st.navigation([st.Page("views/about_me.py"), st.Page("views/projects.py"), st.Page("views/contact_page.py")])
+pg = st.navigation([st.Page("views/about_me.py"), st.Page("views/projects.py")])
 
 # Display logo in the sidebar
 st.sidebar.image("assets/img/logo.png", use_container_width=True)
