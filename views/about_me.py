@@ -11,7 +11,7 @@ st.markdown("""
 
 left, right = st.columns(2)
 
-# Create buttons as hyperlinks with icons and matte black style
+# Create buttons as hyperlinks with icons
 left.markdown(
     """
     <a style="text-decoration: none;" href="https://example.com/resume" target="_blank">
@@ -62,7 +62,6 @@ right.markdown(
     unsafe_allow_html=True
 )
 
-# Embed custom HTML and CSS to enable text wrapping
 st.markdown(
 f"""<p style='text-align: center; font-size: 20px; margin-top: 1rem; margin-bottom: 1rem;'>
         I’m currently diving into the world of Python, learning how to turn ideas into code and solve problems creatively.
@@ -72,13 +71,13 @@ f"""<p style='text-align: center; font-size: 20px; margin-top: 1rem; margin-bott
     unsafe_allow_html=True,
 )
 
-leftimg, rightimg = st.columns(2)
+leftimg, rightimg = st.columns(2) # Create 2 columns
 
-leftimg.image(   # Display an image
+leftimg.image(   
     "assets\img\japaneseflag.png",
     use_container_width=True,
 )
-rightimg.image(   # Display an image
+rightimg.image(  
     "assets\img\southkoreanflag.png",
     use_container_width=True,
 )

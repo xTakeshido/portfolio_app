@@ -5,9 +5,9 @@ st.write("### Weather App")
 
 st.write("Simple weather app that uses OpenWeatherMap API to get the weather of a city. It displays the temperature and weather description of the city.") 
 
-leftimg, middleimg, rightimg = st.columns(3)
+leftimg, middleimg, rightimg = st.columns(3) # Create 3 columns
 
-leftimg.image(   # Display an image
+leftimg.image(   
     "assets\img\est1.png",
     use_container_width=True,
 )
@@ -15,7 +15,7 @@ middleimg.image(
     "assets\img\est2.png",
     use_container_width=True,
 )
-rightimg.image(   # Display an image
+rightimg.image(   
     "assets\img\est3.png",
     use_container_width=True,
 )
