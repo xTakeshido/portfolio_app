@@ -9,35 +9,7 @@ st.markdown("""
             unsafe_allow_html=True
 )
 
-left, right = st.columns(2)
-
-# Create buttons as hyperlinks with icons
-left.markdown(
-    """
-    <a style="text-decoration: none;" href="https://example.com/resume" target="_blank">
-        <button style="
-            width: 100%;
-            padding: 0.75rem 1rem;
-            border: none;
-            outline: none;
-            color: rgb(255, 255, 255);
-            background: #333;
-            position: relative;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-        " role="button">
-            <img src="https://img.icons8.com/material-outlined/24/ffffff/resume.png" alt="Resume Icon"/>
-            Resume
-        </button>
-    </a>
-    """,
-    unsafe_allow_html=True
-)
-
-right.markdown(
+st.markdown(
     """
     <a style="text-decoration: none;" href="https://github.com/xTakeshido" target="_blank">
         <button style="
