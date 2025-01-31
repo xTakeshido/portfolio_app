@@ -26,7 +26,7 @@ projects_page = st.Page(
 pg = st.navigation([st.Page("views/about_me.py"), st.Page("views/projects.py")])
 
 # Display logo in the sidebar
-st.sidebar.image("assets/img/logo.png", use_container_width=True)
+st.sidebar.image("https://raw.githubusercontent.com/xTakeshido/portfolio_app/main/assets/img/logo.png", use_container_width=True)
 
 # Run Navigation
 pg.run()

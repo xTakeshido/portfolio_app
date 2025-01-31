@@ -74,11 +74,11 @@ f"""<p style='text-align: center; font-size: 20px; margin-top: 1rem; margin-bott
 leftimg, rightimg = st.columns(2) # Create 2 columns
 
 leftimg.image(   
-    "assets\img\japaneseflag.png",
+    "https://raw.githubusercontent.com/xTakeshido/portfolio_app/main/assets/img/japaneseflag.png",
     use_container_width=True,
 )
 rightimg.image(  
-    "assets\img\southkoreanflag.png",
+    "https://raw.githubusercontent.com/xTakeshido/portfolio_app/main/assets/img/southkoreanflag.png",
     use_container_width=True,
 )
 
