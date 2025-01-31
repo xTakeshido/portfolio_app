@@ -45,9 +45,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown('<div style="margin-top: 15px;"> </div>',unsafe_allow_html=True)
 st.write("### Flight Price Checker")
 
-st.write("The Flight Price Checker is a Streamlit-based web application that allows users to check flight prices for a given route and date using the Booking.com API.") 
+st.markdown('<div style="margin-top: 10px;">The Flight Price Checker is a Streamlit-based web application that allows users to check flight prices for a given route and date using the Booking.com API.</div>', unsafe_allow_html=True) 
 
 st.image(
     "https://raw.githubusercontent.com/xTakeshido/portfolio_app/main/assets/img/flightchecker.png",
