@@ -92,3 +92,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.markdown(
+f"""<p style='text-align: center; font-size: 20px; padding-top: 15px;'>I am currently a first-year computer science student specializing in Data Security and Forensic Informatics.</p>""",
+    unsafe_allow_html=True,
+)
